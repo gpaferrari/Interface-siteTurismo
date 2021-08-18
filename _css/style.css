@@ -1,0 +1,182 @@
+.imagenInicial{
+    position: absolute;
+    margin: auto auto;
+   max-width: 100%;
+}
+
+.imagem-pacote{
+    position: absolute;
+    margin: auto auto;
+    width: 100%;
+    height: 350px;
+    left: 0px;
+    top: 0px;  
+    object-fit: cover;
+    object-position: center;
+}
+
+.container-fluid{
+    background-color: rgb(77, 77, 77, 0.5);
+    position: relative;
+   
+}
+
+.navbar{
+    height: 300px; 
+    align-items: center;
+    justify-content: center;  
+}
+.btn-outline-success, .form-inline{
+    position: relative;
+    text-align: center;
+       
+}
+
+.btn-outline-success{
+    border: black solid;
+    color: black;
+}
+
+
+.container-fluid p{
+    position: absolute;
+    margin: 10px auto;
+    color: honeydew;
+    font-family: copperplate;
+
+}
+.justify-content-end a{
+    position: relative;
+    color: black;
+}
+
+.justify-content-end a:hover{
+    color: rgb(255, 255, 255);
+}
+
+#corpo{
+    position: relative; 
+    display: flex;
+}
+
+.chamada{
+    background-color: rgba(31, 31, 31, 0.584);
+    margin: 130px;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+.chamada h1{
+    margin-bottom: 50px;
+}
+
+.chamada p{
+    font-size: 22px;
+}
+
+#formprincipal{
+    margin: 140px;
+    background-color: rgba(77, 77, 77, 0.784);
+    text-align: center;
+    color: azure;  
+    font-size: 15px;
+    border-radius: 5px;  
+}
+
+.form-group{
+    text-align: left;
+}
+
+.compras{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+.card{
+overflow: hidden;
+-moz-transition: all 0.1s;
+-webkit-transition: all 0.1s;
+transition: all 0.1s;
+margin: 15px auto;
+
+}
+
+.card:hover{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    border: blue solid;
+    border-radius: 5px;
+}
+.compras img{
+    width: 100%;
+    height: 300px; 
+    object-fit: cover;   
+}
+
+
+
+
+/* X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap*/
+
+/* Small devices (landscape phones, 346px and up)*/
+@media (min-width: 346px) {
+    
+    .container-fluid p{
+        position: relative;
+    }
+    #corpo{ 
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .compras{
+        display: grid;
+        grid-template-columns: auto;
+    }
+}    
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    .imagenInicial{
+        position: absolute;
+        margin: auto auto;
+       max-width: 100%;
+    }
+    .container-fluid p{
+        position: absolute;
+    }
+    #corpo{ 
+        display: flex;
+    }
+    .compras{
+        display: grid;
+        grid-template-columns: auto auto;
+    }    
+}    
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+    .compras{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+    
+}    
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+    .compras{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+    }
+    
+}
+
+/* XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+   
+ }
