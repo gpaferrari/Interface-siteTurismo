@@ -1,3 +1,5 @@
+
+/* Design da imagem pagina home*/
 .imagenInicial{
     position: absolute;
     margin: auto auto;
@@ -15,6 +17,7 @@
     object-position: center;
 }
 
+/* design da barra do navegador */
 .container-fluid{
     background-color: rgb(77, 77, 77, 0.5);
     position: relative;
@@ -54,6 +57,7 @@
     color: rgb(255, 255, 255);
 }
 
+/* Design  do formulario e chamada da pagina home*/
 #corpo{
     position: relative; 
     display: flex;
@@ -87,6 +91,7 @@
     text-align: left;
 }
 
+/* Design da vitrine pagina pacotes*/
 .compras{
     display: grid;
     grid-template-columns: auto auto auto auto;
@@ -120,8 +125,7 @@ margin: 15px auto;
 
 
 
-/* X-Small devices (portrait phones, less than 576px)
-// No media query for `xs` since this is the default in Bootstrap*/
+/* Proporção mobile-first*/
 
 /* Small devices (landscape phones, 346px and up)*/
 @media (min-width: 346px) {
